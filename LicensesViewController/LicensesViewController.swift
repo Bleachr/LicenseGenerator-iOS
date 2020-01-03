@@ -19,9 +19,9 @@ open class LicensesViewController: UIViewController {
   /// The tableView's UITableViewDataSource.
   var dataSource: LicensesDataSource!
 
-  open var textColor = UIColor.black
-  open var bodyColor = UIColor.darkGray
-  open var cellBackgroundColor: UIColor?
+  public var textColor = UIColor.black
+  public var bodyColor = UIColor.darkGray
+  public var cellBackgroundColor: UIColor?
 
   /// Boolean tracking if the constrains have been setup.
   fileprivate var didSetupConstraints = false
